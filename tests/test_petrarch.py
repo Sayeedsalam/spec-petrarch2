@@ -1,5 +1,5 @@
-from petrarch2 import petrarch2, PETRglobals, PETRreader, utilities
-from petrarch2 import PETRtree as ptree
+import petrarch2, PETRglobals, PETRreader, utilities
+import PETRtree as ptree
 
 
 config = petrarch2.utilities._get_data('data/config/', 'PETR_config.ini')
@@ -212,7 +212,8 @@ def test_complex1():
     print(return_dict)
     assert return_dict['test123']['sents']['0']['events'] == [('TUNJUD','NGAEDU','173')]
 
-
+if __name__== '__main__':
+    test_complex1()
 
 
 

@@ -1,7 +1,7 @@
-INFO 2016-06-27 13:49:30,022: Running
-INFO 2016-06-27 13:49:30,024: Reading CAMEO.2.0.txt
-INFO 2016-06-27 13:49:32,264: Reading Phoenix.agents.txt
+INFO 2016-07-29 15:49:19,436: Running
+INFO 2016-07-29 15:49:19,439: Reading CAMEO.2.0.txt
+INFO 2016-07-29 15:49:21,763: Reading Phoenix.agents.txt
 
-WARNING 2016-06-27 13:49:32,289: Codes are required for agents in .agents file ; line skipped
-INFO 2016-06-27 13:49:32,293: Reading Phoenix.discards.txt
-INFO 2016-06-27 13:49:32,296: Reading Phoenix.IssueCoding.txt
+WARNING 2016-07-29 15:49:21,794: Codes are required for agents in .agents file ; line skipped
+INFO 2016-07-29 15:49:21,799: Reading Phoenix.discards.txt
+INFO 2016-07-29 15:49:21,805: Reading Phoenix.IssueCoding.txt

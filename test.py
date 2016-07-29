@@ -1,5 +1,6 @@
 from CameoEventCoder import CameoEventCoder
 from datetime import datetime
+import json
 
 event_encoder = CameoEventCoder()
 
@@ -11,7 +12,7 @@ print content
 
 print '==================='
 
-print event_encoder.encode(content)
+print event_encoder.encode(content)['nytasiapacific20160622.0002']['sents'][1]['events']
     
 
  
