@@ -15,7 +15,7 @@ class CameoEventCoder:
         utilities.init_logger('PETRARCH.log')
         logger = logging.getLogger('petr_log')
         PETRglobals.RunTimeString = time.asctime()
-        logger.info('Using Config file: ',config_file)
+        logger.info('Using Config file: '+config_file)
         PETRreader.parse_Config(utilities._get_data(config_folder, config_file))
         petrarch2.read_dictionaries()
     
