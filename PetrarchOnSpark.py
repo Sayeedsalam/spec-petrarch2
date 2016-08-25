@@ -9,12 +9,13 @@ def code_articles(articleText):
     import CameoEventCoder 
     coder = CameoEventCoder()
     events_map = coder.encode(articleText)
+    print events_map
     return str(events_map)
 
 if __name__ == "__main__":
 
   # create Spark context with Spark configuration
-    conf = SparkConf().setAppName("Spark Count")
+    conf = SparkConf().setAppName("Spark Petrarch2")
     sc = SparkContext(conf=conf)
     ssc = StreamingContext(sc, 120)
     kafkaStream = KafkaUtils.createStream(ssc=ssc,
