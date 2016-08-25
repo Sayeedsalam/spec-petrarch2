@@ -6,7 +6,7 @@ from pyspark.streaming.kafka import KafkaUtils
 #from CameoEventCoder import CameoEventCoder 
 
 def code_articles(articleText):
-    from CameoEventCoder import CameoEventCoder 
+    import CameoEventCoder 
     coder = CameoEventCoder()
     events_map = coder.encode(articleText)
     return str(events_map)
