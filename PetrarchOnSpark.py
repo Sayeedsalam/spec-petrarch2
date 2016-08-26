@@ -28,7 +28,7 @@ if __name__ == "__main__":
   
  
     lines = kafkaStream.map(lambda x: x[1])
-    events_rdd = lines.map(encoderBroadcast.encode)
+    events_rdd = lines.map(encoderBroadcast.value().encode)
     
     events_rdd.saveAsTextFiles("TEST", "OUT")
 
