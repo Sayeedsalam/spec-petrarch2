@@ -17,6 +17,7 @@ if __name__ == "__main__":
   # create Spark context with Spark configuration
     conf = SparkConf().setAppName("Spark Petrarch2")
     sc = SparkContext(conf=conf)
+    sc.addPyFile("petrarch_shipped.zip")
     ssc = StreamingContext(sc, 120)
     kafkaStream = KafkaUtils.createStream(ssc=ssc,
                                         zkQuorum='dmlhdpc1',
