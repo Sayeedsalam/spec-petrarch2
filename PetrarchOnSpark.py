@@ -7,7 +7,7 @@ from CameoEventCoder import CameoEventCoder
 #from CameoEventCoder import CameoEventCoder 
 
 def code_articles(articleText):
-    import CameoEventCoder 
+    from CameoEventCoder import CameoEventCoder 
     coder = CameoEventCoder()
     events_map = coder.encode(articleText)
     print events_map
@@ -18,6 +18,7 @@ if __name__ == "__main__":
   # create Spark context with Spark configuration
     conf = SparkConf().setAppName("Spark Petrarch2")
     sc = SparkContext(conf=conf)
+    
     #sc.addPyFile("dist/petrarch2-1.0.0-py2.7.egg")
     #encoderBroadcast = sc.broadcast(CameoEventCoder())
     ssc = StreamingContext(sc, 120)
