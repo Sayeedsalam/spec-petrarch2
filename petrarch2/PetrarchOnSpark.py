@@ -19,7 +19,7 @@ if __name__ == "__main__":
     conf = SparkConf().setAppName("Spark Petrarch2")
     sc = SparkContext(conf=conf)
     sc.addPyFile("petrarch2-1.0.0-py2.7.egg")
-    encoderBroadcast = sc.broadcast(CameoEventCoder())
+    #encoderBroadcast = sc.broadcast(CameoEventCoder())
     ssc = StreamingContext(sc, 120)
     kafkaStream = KafkaUtils.createStream(ssc=ssc,
                                         zkQuorum='dmlhdpc1',
@@ -28,7 +28,7 @@ if __name__ == "__main__":
   
  
     lines = kafkaStream.map(lambda x: x[1])
-    events_rdd = lines.map(encoderBroadcast.value().encode)
+    events_rdd = lines.map(code_articles)
     
     events_rdd.saveAsTextFiles("TEST", "OUT")
 
