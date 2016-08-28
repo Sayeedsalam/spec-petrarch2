@@ -27,9 +27,9 @@ if __name__ == "__main__":
     linesRDD = sc.parallelize(lines)
  
     events_rdd = linesRDD.map(map_articles)
-    events_rdd.pprint(1)
+    
     events_rdd = events_rdd.map(code_articles)
-    events_rdd.pprint(1)
+    
     
     events_rdd.saveAsTextFiles("hdfs://dmlhdpc10:9000/Events_SPEC", "OUT")
 
