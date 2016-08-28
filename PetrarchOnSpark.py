@@ -6,11 +6,15 @@ from pyspark.streaming.kafka import KafkaUtils
 from petrarch2 import EventCoder
 #from CameoEventCoder import CameoEventCoder 
 
+def map_articles(articleText):
+    return articleText.encode('utf-8')
+    
+
 def code_articles(articleText):
      
     coder = EventCoder()
     #print articleText.encode('utf-8')
-    events_map = coder.encode(articleText.encode('utf-8'))
+    events_map = coder.encode(articleText)
     #print events_map
     return str(events_map)
 
@@ -30,8 +34,10 @@ if __name__ == "__main__":
   
  
     lines = kafkaStream.map(lambda x: x[1])
-    events_rdd = lines.map(code_articles)
-    events_rdd.pprint()
+    events_rdd = lines.map(map_articles)
+    events_rdd.pprint(1)
+    events_rdd = events_rdd.map(code_articles)
+    events_rdd.pprint(1)
     
     events_rdd.saveAsTextFiles("hdfs://dmlhdpc10:9000/Events_SPEC", "OUT")
 
