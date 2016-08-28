@@ -15,8 +15,12 @@ class EventCoder:
         logger.info('Using Config file: '+config_file)
         PETRreader.parse_Config(utilities._get_data(config_folder, config_file))
         petrarch2.read_dictionaries()
-    
+        print("SUCCESSFULL ON LOADING DICTIONARIES")
     
     def encode(self, article):
         return petrarch2.gen_cameo_event(article)
+    
+    
+    def get_dictionaries(self):
+        pass
      

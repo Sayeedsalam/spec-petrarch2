@@ -8,12 +8,9 @@ def map_articles(articleText):
     return articleText.encode('utf-8')
     
 
-def code_articles(articleText):
-     
+def code_articles(articleText): 
     coder = EventCoder()
-    #print articleText.encode('utf-8')
     events_map = coder.encode(articleText)
-    #print events_map
     return str(events_map)
 
 def print_each(x):
