@@ -30,7 +30,9 @@ if __name__ == "__main__":
     
     events_rdd = events_rdd.map(code_articles)
     
-    print events_rdd.collect()
+    result = events_rdd.collect()
+    
+    print(result)
     
     
   
