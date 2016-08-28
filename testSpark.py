@@ -30,8 +30,8 @@ if __name__ == "__main__":
     
     events_rdd = events_rdd.map(code_articles)
     
+    print events_rdd.collect()
     
-    events_rdd.saveAsTextFiles("hdfs://dmlhdpc10:9000/Events_SPEC", "OUT")
-
+    
   
   
