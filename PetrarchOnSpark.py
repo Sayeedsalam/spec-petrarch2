@@ -44,7 +44,7 @@ if __name__ == "__main__":
     lines = kafkaStream.map(lambda x: x[1])
     events_rdd = lines.map(map_articles)
     events_rdd.pprint(1)
-    events_rdd = events_rdd.map(partial(code_articles, bMap.value))
+    events_rdd = events_rdd.map(partial(code_articles, petrGlobals = bMap.value))
     events_rdd.pprint(1)
     
     events_rdd.saveAsTextFiles("hdfs://dmlhdpc10:9000/Events_SPEC", "OUT")
