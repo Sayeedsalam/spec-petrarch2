@@ -3,7 +3,7 @@
 	"doc_id" : "nytasiapacific20160622.0002",
 	"head_line" : "Lightning Ridge Journal: An Amateur Undertaking in Australian Mining Town With No Funeral Home",
 	"date_line" : "Tue, 21 Jun 2016 03:52:15 GMT",
-	"sentences" : [
+	"sentences" : {"array":[
 		{
 			"sentence_id" : 1,
 			"sentence" : "A Tunisian court has jailed a Nigerian student for two years for helping young militants join an armed Islamic group in Lebanon, his lawyer said Wednesday.",
@@ -11,6 +11,6 @@
 			
 		}
 		
-	],
+	]},
 	"corref" : ""
 }

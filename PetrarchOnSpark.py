@@ -9,7 +9,8 @@ from CameoEventCoder import CameoEventCoder
 def code_articles(articleText):
     from CameoEventCoder import CameoEventCoder 
     coder = CameoEventCoder()
-    events_map = coder.encode(articleText)
+    print articleText.encode('utf-8')
+    events_map = coder.encode(articleText.encode('utf-8'))
     print events_map
     return str(events_map)
 
