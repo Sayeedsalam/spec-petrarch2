@@ -31,7 +31,7 @@ if __name__ == "__main__":
     coder = EventCoder(petrGlobal={})
     
     bMap = sc.broadcast(coder.get_PETRGlobals())
-    print(bMap.value)
+    print(bMap.__class__)
     #sc.addPyFile("dist/petrarch2-1.0.0-py2.7.egg")
     #encoderBroadcast = sc.broadcast(CameoEventCoder())
     ssc = StreamingContext(sc, 120)
