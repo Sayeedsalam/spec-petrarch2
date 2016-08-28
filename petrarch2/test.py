@@ -1,5 +1,5 @@
  
-from EventCoder import EventCoder
+from petrarch2 import EventCoder
 
 coder = EventCoder() 
  
