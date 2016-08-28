@@ -3,12 +3,12 @@ import sys
 from pyspark import SparkContext, SparkConf
 from pyspark.streaming import StreamingContext
 from pyspark.streaming.kafka import KafkaUtils
-from CameoEventCoder import CameoEventCoder
+from petrarch2 import EventCoder
 #from CameoEventCoder import CameoEventCoder 
 
 def code_articles(articleText):
-    from CameoEventCoder import CameoEventCoder 
-    coder = CameoEventCoder()
+     
+    coder = EventCoder()
     print articleText.encode('utf-8')
     events_map = coder.encode(articleText.encode('utf-8'))
     print events_map
