@@ -16,6 +16,10 @@ def code_articles(articleText):
     #print events_map
     return str(events_map)
 
+def print_each(x):
+    print x
+    return x
+
 if __name__ == "__main__":
     
   # create Spark context with Spark configuration
@@ -28,7 +32,11 @@ if __name__ == "__main__":
  
     events_rdd = linesRDD.map(map_articles)
     
+    events_rdd = events_rdd.map(print_each)
+    
     events_rdd = events_rdd.map(code_articles)
+    
+    events_rdd = events_rdd.map(print_each)
     
     result = events_rdd.collect()
     
