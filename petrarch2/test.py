@@ -1,7 +1,9 @@
  
-from petrarch2 import EventCoder
+from EventCoder import EventCoder
 
-coder = EventCoder() 
+coder = EventCoder(petrGlobal={}) 
+
+another_coder = EventCoder(petrGlobal=coder.get_PETRGlobals())
  
 input_file = open('test_article_173_2.json')
  
@@ -11,7 +13,7 @@ print content
  
 print '==================='
  
-print coder.encode(content)['nytasiapacific20160622.0002']['sents'][1]['events']
+print another_coder.encode(content)['nytasiapacific20160622.0002']['sents'][1]['events']
     
 
  
