@@ -2304,3 +2304,5 @@ def read_json(jsonString):
     except:
         print('Invalid JSON Format')
         print(sys.exc_info()[0])
+        
+        return {}

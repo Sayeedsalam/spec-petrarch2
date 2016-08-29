@@ -495,8 +495,11 @@ def run(filepaths, out_file, s_parsed):
 
 def gen_cameo_event(jsonString):
     events = PETRreader.read_json(jsonString)
-    updated_events = do_coding(events, None)
-    return updated_events
+    if events:
+        updated_events = do_coding(events, None)
+        return updated_events
+    else:
+        return {}
     
 
 
