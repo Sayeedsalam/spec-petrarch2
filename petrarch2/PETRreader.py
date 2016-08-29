@@ -2266,7 +2266,12 @@ def read_json(jsonString):
     sentence_limit = 7
     
     article = json.load(StringIO(jsonString))
-    dateObject = parser.parse(article['date_line']) 
+    
+    dateObject = None
+    if len(article['date_line']) == 0:
+        dateObject = datetime.now()
+    else:    
+        dateObject = parser.parse(article['date_line']) 
 
     
     try:
