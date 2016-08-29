@@ -2266,7 +2266,12 @@ def read_json(jsonString):
     sentence_limit = 7
     
     article = json.load(StringIO(jsonString))
-    dateObject = parser.parse(article['date_line']) 
+    
+    dateObject = None
+    if len(article['date_line']) == 0:
+        dateObject = datetime.now()
+    else:    
+        dateObject = parser.parse(article['date_line']) 
 
     
     try:
@@ -2281,13 +2286,15 @@ def read_json(jsonString):
         print("4")
         counter = 0
     
-        for sentence in article['sentences']['array']:
+        for sentence in article['sentences']:
             sent_id = sentence['sentence_id']
+            print(sent_id)
             counter = counter + 1
             print (counter)
             if counter == sentence_limit:
                 break #read only the first 7 sentences of a article
             parsed_text = utilities._format_parsed_str(sentence['parse_sentence'])
+            print (parsed_text)
             sent_dict[sent_id] = {'content': sentence['sentence'], 'parsed':
                                         parsed_text}
             print (counter)

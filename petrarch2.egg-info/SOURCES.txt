@@ -5,7 +5,6 @@ petrarch2/PETRglobals.py
 petrarch2/PETRreader.py
 petrarch2/PETRtree.py
 petrarch2/PETRwriter.py
-petrarch2/PetrarchOnSpark.py
 petrarch2/__init__.py
 petrarch2/petrarch2.py
 petrarch2/test.py
