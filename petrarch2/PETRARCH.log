@@ -1,8 +1,8 @@
-INFO 2016-08-29 12:16:29,615: Running
-INFO 2016-08-29 12:16:29,615: Using Config file: PETR_config.ini
-INFO 2016-08-29 12:16:29,617: Reading CAMEO.2.0.txt
-INFO 2016-08-29 12:16:31,789: Reading Phoenix.agents.txt
+INFO 2016-08-29 17:08:26,684: Running
+INFO 2016-08-29 17:08:26,685: Using Config file: PETR_config.ini
+INFO 2016-08-29 17:08:26,687: Reading CAMEO.2.0.txt
+INFO 2016-08-29 17:08:28,854: Reading Phoenix.agents.txt
 
-WARNING 2016-08-29 12:16:31,815: Codes are required for agents in .agents file ; line skipped
-INFO 2016-08-29 12:16:31,819: Reading Phoenix.discards.txt
-INFO 2016-08-29 12:16:31,822: Reading Phoenix.IssueCoding.txt
+WARNING 2016-08-29 17:08:28,881: Codes are required for agents in .agents file ; line skipped
+INFO 2016-08-29 17:08:28,887: Reading Phoenix.discards.txt
+INFO 2016-08-29 17:08:28,892: Reading Phoenix.IssueCoding.txt
