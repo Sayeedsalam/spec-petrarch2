@@ -48,7 +48,7 @@ if __name__ == "__main__":
     events_rdd = events_rdd.map(partial(code_articles, petrGlobals = bMap.value))
     events_rdd.pprint(1)
     
-    events_rdd.foreachRDD(lambda x: x.saveAsTextFile("hdfs://dmlhdpc10:9000/Events_SPEC"+ datetime.strptime(datetime.now(), "%Y%m%d_%I%M%S")))
+    events_rdd.foreachRDD(lambda x: x.saveAsTextFile("hdfs://dmlhdpc10:9000/Events_SPEC"+ datetime.strftime(datetime.now(), "%Y%m%d_%I%M%S")))
     #events_rdd.saveAsTextFiles("hdfs://dmlhdpc10:9000/Events_SPEC", "OUT")
 
     ssc.start()
