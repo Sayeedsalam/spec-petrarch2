@@ -5,6 +5,7 @@ from pyspark.streaming import StreamingContext
 from pyspark.streaming.kafka import KafkaUtils
 from petrarch2 import EventCoder
 from _functools import partial
+from datetime import datetime
 #from CameoEventCoder import CameoEventCoder 
 
 def map_articles(articleText):
@@ -47,7 +48,7 @@ if __name__ == "__main__":
     events_rdd = events_rdd.map(partial(code_articles, petrGlobals = bMap.value))
     events_rdd.pprint(1)
     
-    events_rdd.foreachRDD(lambda x: x.saveAsTextFile("hdfs://dmlhdpc10:9000/Events_SPEC"))
+    events_rdd.foreachRDD(lambda x: x.saveAsTextFile("hdfs://dmlhdpc10:9000/Events_SPEC"+str(datetime.now())))
     #events_rdd.saveAsTextFiles("hdfs://dmlhdpc10:9000/Events_SPEC", "OUT")
 
     ssc.start()
