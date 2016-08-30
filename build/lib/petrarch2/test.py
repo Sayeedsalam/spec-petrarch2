@@ -5,15 +5,16 @@ coder = EventCoder(petrGlobal={})
  
 another_coder = EventCoder(petrGlobal=coder.get_PETRGlobals())
   
-input_file = open('test_article_0353.json')
+input_file = open('core_nlp_out.txt')
   
-content = input_file.read()
+
   
-print content
-  
-print '==================='
-  
-print another_coder.encode(content)
+for line in input_file:
+      
+    print line      
+    print '==================='
+      
+    print another_coder.encode(line)
 
 # from dateutil import parser
 # from datetime import datetime

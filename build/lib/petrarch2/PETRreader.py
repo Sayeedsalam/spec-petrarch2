@@ -2265,7 +2265,7 @@ def read_json(jsonString):
     holding = {}
     sentence_limit = 7
     
-    article = json.load(StringIO(jsonString.encode('utf-8')))
+    article = json.load(StringIO(jsonString))
     
     dateObject = None
     if len(article['date_line']) == 0:

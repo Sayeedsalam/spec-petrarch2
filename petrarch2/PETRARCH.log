@@ -1,8 +1,61 @@
-INFO 2016-08-29 17:08:26,684: Running
-INFO 2016-08-29 17:08:26,685: Using Config file: PETR_config.ini
-INFO 2016-08-29 17:08:26,687: Reading CAMEO.2.0.txt
-INFO 2016-08-29 17:08:28,854: Reading Phoenix.agents.txt
+INFO 2016-08-30 12:34:03,510: Running
+INFO 2016-08-30 12:34:03,512: Using Config file: PETR_config.ini
+INFO 2016-08-30 12:34:03,514: Reading CAMEO.2.0.txt
+INFO 2016-08-30 12:34:05,657: Reading Phoenix.agents.txt
 
-WARNING 2016-08-29 17:08:28,881: Codes are required for agents in .agents file ; line skipped
-INFO 2016-08-29 17:08:28,887: Reading Phoenix.discards.txt
-INFO 2016-08-29 17:08:28,892: Reading Phoenix.IssueCoding.txt
+WARNING 2016-08-30 12:34:05,691: Codes are required for agents in .agents file ; line skipped
+INFO 2016-08-30 12:34:05,695: Reading Phoenix.discards.txt
+INFO 2016-08-30 12:34:05,701: Reading Phoenix.IssueCoding.txt
+INFO 2016-08-30 12:34:05,884: 	Sentence discard.   FIRST 1978
+INFO 2016-08-30 12:34:05,961: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:05,962: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:05,962: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:05,963: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:06,239: 	Sentence discard.   FIRST 1978
+INFO 2016-08-30 12:34:06,397: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:06,397: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:06,397: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:06,398: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:06,408: 	Sentence discard.   NATIONAL DAY WASIM 2007
+INFO 2016-08-30 12:34:06,409: 	Sentence discard.   WASIM 2007
+INFO 2016-08-30 12:34:07,365: 	Sentence discard.   UNDER 2012
+INFO 2016-08-30 12:34:07,595: 	Sentence discard.   NATIONAL DAY WASIM 2007
+INFO 2016-08-30 12:34:07,596: 	Sentence discard.   WASIM 2007
+INFO 2016-08-30 12:34:07,802: 	Sentence discard.   FIRST 1978
+INFO 2016-08-30 12:34:07,881: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:07,881: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:07,881: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:07,882: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:07,995: 	Sentence discard.   UNDER 2012
+INFO 2016-08-30 12:34:09,211: 	Sentence discard.   NATIONAL DAY WASIM 2007
+INFO 2016-08-30 12:34:09,212: 	Sentence discard.   WASIM 2007
+INFO 2016-08-30 12:34:09,382: 	Sentence discard.   FIRST 1978
+INFO 2016-08-30 12:34:09,637: 	Sentence discard.   UNDER 2012
+INFO 2016-08-30 12:34:09,643: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:09,643: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:09,643: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:09,644: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:10,173: 	Sentence discard.   FIRST 1978
+INFO 2016-08-30 12:34:10,378: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:10,378: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:10,379: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:10,379: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:10,389: 	Sentence discard.   NATIONAL DAY WASIM 2007
+INFO 2016-08-30 12:34:10,390: 	Sentence discard.   WASIM 2007
+INFO 2016-08-30 12:34:10,870: 	Sentence discard.   UNDER 2012
+INFO 2016-08-30 12:34:11,318: 	Sentence discard.   NATIONAL DAY WASIM 2007
+INFO 2016-08-30 12:34:11,319: 	Sentence discard.   WASIM 2007
+INFO 2016-08-30 12:34:11,966: 	Sentence discard.   UNDER 2012
+INFO 2016-08-30 12:34:11,989: 	Sentence discard.   FIRST 1978
+INFO 2016-08-30 12:34:12,123: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:12,123: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:12,123: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:12,124: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:12,552: 	Sentence discard.   FIRST 1978
+INFO 2016-08-30 12:34:12,723: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:12,723: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:12,723: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:12,724: 	Sentence discard.   DENGUE FEVER
+INFO 2016-08-30 12:34:13,181: 	Sentence discard.   NATIONAL DAY WASIM 2007
+INFO 2016-08-30 12:34:13,183: 	Sentence discard.   WASIM 2007
+INFO 2016-08-30 12:34:13,569: 	Sentence discard.   UNDER 2012
