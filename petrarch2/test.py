@@ -15,7 +15,7 @@ for line in input_file:
     print line      
     print '==================='
       
-    print json.dumps(another_coder.encode(line))
+    print another_coder.encode(line)
 
 # from dateutil import parser
 # from datetime import datetime
