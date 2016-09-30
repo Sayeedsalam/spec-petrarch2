@@ -1,6 +1,7 @@
 import json
   
 from EventCoder import EventCoder
+from petrarch2 import PETRglobals
  
 coder = EventCoder(petrGlobal={}) 
  
@@ -8,14 +9,15 @@ another_coder = EventCoder(petrGlobal=coder.get_PETRGlobals())
   
 input_file = open('core_nlp_out.txt')
   
-
+print json.dumps(PETRglobals.ActorDict)
+#print PETRglobals.AgentDict
   
-for line in input_file:
-      
-    print line      
-    print '==================='
-      
-    print another_coder.encode(line)
+# for line in input_file:
+#       
+#     print line      
+#     print '==================='
+#       
+#     print another_coder.encode(line)
 
 # from dateutil import parser
 # from datetime import datetime

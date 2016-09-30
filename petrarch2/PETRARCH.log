@@ -1,61 +1,8 @@
-INFO 2016-09-13 12:47:24,658: Running
-INFO 2016-09-13 12:47:24,658: Using Config file: PETR_config.ini
-INFO 2016-09-13 12:47:24,659: Reading CAMEO.2.0.txt
-INFO 2016-09-13 12:47:27,122: Reading Phoenix.agents.txt
+INFO 2016-09-27 17:22:43,921: Running
+INFO 2016-09-27 17:22:43,922: Using Config file: PETR_config.ini
+INFO 2016-09-27 17:22:43,923: Reading CAMEO.2.0.txt
+INFO 2016-09-27 17:22:46,270: Reading Phoenix.agents.txt
 
-WARNING 2016-09-13 12:47:27,152: Codes are required for agents in .agents file ; line skipped
-INFO 2016-09-13 12:47:27,157: Reading Phoenix.discards.txt
-INFO 2016-09-13 12:47:27,162: Reading Phoenix.IssueCoding.txt
-INFO 2016-09-13 12:47:27,357: 	Sentence discard.   FIRST 1978
-INFO 2016-09-13 12:47:27,434: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:27,434: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:27,434: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:27,435: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:27,774: 	Sentence discard.   FIRST 1978
-INFO 2016-09-13 12:47:27,945: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:27,946: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:27,946: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:27,947: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:27,957: 	Sentence discard.   NATIONAL DAY WASIM 2007
-INFO 2016-09-13 12:47:27,958: 	Sentence discard.   WASIM 2007
-INFO 2016-09-13 12:47:28,793: 	Sentence discard.   UNDER 2012
-INFO 2016-09-13 12:47:29,097: 	Sentence discard.   NATIONAL DAY WASIM 2007
-INFO 2016-09-13 12:47:29,098: 	Sentence discard.   WASIM 2007
-INFO 2016-09-13 12:47:29,374: 	Sentence discard.   FIRST 1978
-INFO 2016-09-13 12:47:29,513: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:29,513: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:29,513: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:29,514: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:29,630: 	Sentence discard.   UNDER 2012
-INFO 2016-09-13 12:47:30,804: 	Sentence discard.   NATIONAL DAY WASIM 2007
-INFO 2016-09-13 12:47:30,806: 	Sentence discard.   WASIM 2007
-INFO 2016-09-13 12:47:31,126: 	Sentence discard.   FIRST 1978
-INFO 2016-09-13 12:47:31,254: 	Sentence discard.   UNDER 2012
-INFO 2016-09-13 12:47:31,260: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:31,260: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:31,260: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:31,261: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:31,829: 	Sentence discard.   FIRST 1978
-INFO 2016-09-13 12:47:32,065: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:32,065: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:32,065: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:32,066: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:32,201: 	Sentence discard.   NATIONAL DAY WASIM 2007
-INFO 2016-09-13 12:47:32,203: 	Sentence discard.   WASIM 2007
-INFO 2016-09-13 12:47:32,618: 	Sentence discard.   UNDER 2012
-INFO 2016-09-13 12:47:33,047: 	Sentence discard.   NATIONAL DAY WASIM 2007
-INFO 2016-09-13 12:47:33,048: 	Sentence discard.   WASIM 2007
-INFO 2016-09-13 12:47:33,727: 	Sentence discard.   UNDER 2012
-INFO 2016-09-13 12:47:33,751: 	Sentence discard.   FIRST 1978
-INFO 2016-09-13 12:47:33,846: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:33,846: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:33,846: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:33,847: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:34,330: 	Sentence discard.   FIRST 1978
-INFO 2016-09-13 12:47:34,469: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:34,469: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:34,469: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:34,470: 	Sentence discard.   DENGUE FEVER
-INFO 2016-09-13 12:47:34,964: 	Sentence discard.   NATIONAL DAY WASIM 2007
-INFO 2016-09-13 12:47:34,966: 	Sentence discard.   WASIM 2007
-INFO 2016-09-13 12:47:35,365: 	Sentence discard.   UNDER 2012
+WARNING 2016-09-27 17:22:46,301: Codes are required for agents in .agents file ; line skipped
+INFO 2016-09-27 17:22:46,306: Reading Phoenix.discards.txt
+INFO 2016-09-27 17:22:46,310: Reading Phoenix.IssueCoding.txt
